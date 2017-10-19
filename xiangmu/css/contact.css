@@ -1,0 +1,276 @@
+@import url('base.css');
+
+/* 头部开始 */
+.banner{
+	width: 100%;
+	height:300px;
+	position: relative;
+	background: url('../img/310167.jpg') no-repeat 0px -458px;
+}
+.banner-all{
+	width: 1200px;
+	height: 100%;
+	overflow:hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.banner-top{
+	width: 100%;
+	height: 60px;
+	margin-top: 42px;
+	line-height: 60px;
+}
+.banner-topleft{
+	width: 230px;
+	height: 100%;
+	color: #fff;
+	float: left;
+	display: flex;	
+}
+.banner-topleft>h1{
+	margin-top: 7px;
+	cursor: pointer;
+}
+.banner-topleft .a{
+	display: block;
+	width: 47px;
+	height: 68px;
+	background: #ffdd57;
+	text-align: center;
+	line-height: 68px;
+	color: #fff;
+}
+.banner-topright{
+	float: right;
+}
+.banner-topright>li{
+	float: left;
+	height: 60px;
+	margin-right: 20px;
+	font-size: 26px;
+	line-height: 60px;
+}
+.banner-topright>li>a{
+	color: #fff;
+	padding: 5px 20px;
+}
+.banner-topright>li>a:hover{
+	color: #14c6de;
+	background: #fff;
+}
+.banner-center{
+	width: 265px;
+	height: 23px;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -133px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px; 
+	font-weight: 600;
+}
+/* 头部结束 */
+
+/* 联系开始 */
+.center{
+	width: 1200px;
+	height: 340px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	width: 450px;
+	height: 100%;
+}
+.left .icon{
+	width: 100%;
+	height: 80px;
+	display: flex;	
+	margin-top: 30px;
+}
+.left .icon:first-child{
+	margin-top: 0;
+}
+.left .icon .p{
+	width: 300px;
+	height: 58px;
+	color: #464646;
+	margin-left: 50px;
+}
+.left .icon .p .p1{
+	line-height: 50px;
+}
+.left .icon .p2{
+	cursor: pointer;
+	transition: all 0.5s ease;
+	color: #14c6de;
+}
+.left .icon .p2:hover{
+	color: #464646;
+}
+.center .right{
+	width: 635px;
+	height: 100%;
+	overflow: hidden; 
+}
+.center .right>input{
+	width: 96%;
+	height: 50px;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+.center .right .name{
+	margin-top: 0;
+}
+.center .right .massage{
+	padding-bottom: 100px;
+}
+.send{
+	display: block;
+	width: 100px;
+	height: 40px;
+	background: rgb(255, 221, 87);
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	margin-left: 900px;
+	transition: all 1s ease;
+	cursor: pointer;
+}
+.send:hover{
+	background: rgb(13, 197, 221);
+}
+/* 联系结束 */
+
+/* 最后一栏开始 */
+footer{
+	width: 100%;
+	height: 495px;
+	background: #1c1b1b;
+	overflow: hidden;
+	margin-top: 100px;
+}
+footer .contain{
+	width: 1200px;
+	height: 385px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	transition: all 2s ease 1s;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	margin-top: 55px;
+	overflow: hidden;
+}
+footer .contain>li{
+	width: 270px;
+	height: 100%;
+}
+footer .contain>li p{
+	padding-top: 40px;
+	font-size: 14px;
+	line-height: 30px;
+}
+footer .contain>li .icon{
+	width: 220px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px; 
+}
+footer .contain>li .icon>li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+footer .contain>li .icon>li:hover{
+	background: rgb(13, 197, 221);
+}
+footer .contain .li1 .icon>li{
+	transition: all 1s ease;
+}
+footer .contain .li2{
+	margin-left: 100px;
+}
+footer .contain .li2>a{
+	display: block;
+	color: #fff;
+	line-height: 40px;
+	font-size: 18px;
+}
+footer .contain .li2>a:hover{
+	color: rgb(6, 179, 147);
+}
+footer .contain .li2 a:first-of-type{
+	margin-top: 30px;
+}
+footer .contain .li3 .tubiao>li{
+	transition: all 1s ease;
+}
+footer .contain .li3 .tubiao .kuang{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #000;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	transition: all 1s ease;
+}
+.contain .li3 .tubiao .kuang:first-child{
+	margin-top: 30px;
+}
+footer .contain .li3 .tubiao .kuang:hover{
+	background: rgb(255, 221, 87);
+}
+.contain .li3 .tubiao .kuangright{
+	float: left;
+}
+.contain .li3 .tubiao .kuangright{
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.contain .li3 .tubiao .kuangright p{
+	margin-top: -40px;
+}
+.contain .li3 .tubiao .kuangright .p1:hover{
+	color: rgb(6, 179, 147);
+}
+.contain .li4 .tupian1{
+	width: 100%;
+	height: 250px;
+	margin-top: 40px;
+}
+.contain .li4 .tupian1>img{
+	display: block;
+	width: 85px;
+	height: 100px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+} 
+.bottom{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 14px;
+}
+/* 最后一栏结束 */
